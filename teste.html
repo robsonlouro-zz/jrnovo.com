@@ -1,0 +1,38 @@
+<html>
+<body>
+<head>
+	<title>...</title>
+
+<script type="text/javascript">
+
+   window.onload = function(){
+
+      setInterval("TrocaImagem()",35000); 
+
+   }
+
+   function TrocaImagem(){
+
+      var imagem = document.getElementById('img').src;      
+
+      if(imagem.indexOf("img1.jpg") != -1){
+
+         document.getElementById('img').src = "img2.jpg";
+
+      }else{
+
+         document.getElementById('img').src = "img1.jpg";
+
+      }
+
+   }
+
+</script>
+
+</head>
+<body>
+
+<img src="http://cameras.praiagrande.sp.gov.br/upload/img/CAM_INTERNET_1.jpg" id="img">
+
+</body>
+</html>

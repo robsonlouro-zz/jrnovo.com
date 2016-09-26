@@ -1,0 +1,5 @@
+21/05/2015
+>Criado Changelog
+>mudanças das fotos de goetecnia
+>Usando jquery em nuvem
+>tamanho das fotos no código - NAO PRECISA REDIMENSIONAR MAIS
